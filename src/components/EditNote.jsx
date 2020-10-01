@@ -49,7 +49,7 @@ export default class EditNote extends Component {
       editNote
     );
 
-    window.location.href = "/";
+    window.location.href = "/notes-app-frontend";
   };
 
   handleChange = (e) => {
