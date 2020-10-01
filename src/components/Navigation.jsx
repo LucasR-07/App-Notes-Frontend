@@ -17,10 +17,10 @@ export default class Navigation extends Component {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
             <Link to="/notes-app-frontend">
-              <button className="btn btn-outline-danger border-0 rounded-pill text-light navBoton">Notes</button>
+              <button className="btn btn-outline-danger border-0 rounded-pill text-light navBoton mr-3">Notes</button>
             </Link>
             <Link to="/create">
-              <button className="btn btn-outline-danger border-0 rounded-pill text-light navBoton mr-3 ml-3">Create Note</button>
+              <button className="btn btn-outline-danger border-0 rounded-pill text-light navBoton mr-3">Create Note</button>
             </Link>
             <Link to="/user">
               <button className="btn btn-outline-danger border-0 rounded-pill text-light navBoton">Create User</button>
