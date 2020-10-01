@@ -9,14 +9,14 @@ export default class Navigation extends Component {
     return(
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
-        <Link to="/">
+        <Link to="/notes-app-frontend">
           <Navbar.Brand>Notes App</Navbar.Brand>
         </Link>
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
-            <Link to="/">
+            <Link to="/notes-app-frontend">
               <button className="btn btn-outline-danger border-0 rounded-pill text-light navBoton">Notes</button>
             </Link>
             <Link to="/create">
