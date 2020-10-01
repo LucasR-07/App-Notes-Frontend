@@ -33,7 +33,7 @@ export class CreateNote extends Component {
 
     await axios.post("https://appnotes-backend.herokuapp.com/api/notes", newNote);
 
-    window.location.href = "/";
+    window.location.href = "/notes-app-frontend";
   };
 
   handleChange = (e) => {
