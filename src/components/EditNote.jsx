@@ -11,6 +11,7 @@ export default class EditNote extends Component {
     title: "",
     content: "",
     date: new Date(),
+    author: ""
   };
 
   async componentDidMount() {
@@ -74,7 +75,7 @@ export default class EditNote extends Component {
             <select
               className="form-control"
               name="userSelected"
-              value={this.state.userSelected}
+              value={this.state.author}
               onChange={this.handleChange}
             >
               {this.state.users.map((user) => (
