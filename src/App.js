@@ -17,9 +17,9 @@ function App() {
 
         <div className="container p-4">
           <Route path="/notes-app-frontend" exact component={NotesList} />
-          <Route path="/notes/:id" component={EditNote} />
-          <Route path="/create" component={CreateNote} />
-          <Route path="/user" component={CreateUser} />
+          <Route path="/notes-app-frontend/notes/:id" component={EditNote} />
+          <Route path="/notes-app-frontend/create" component={CreateNote} />
+          <Route path="/notes-app-frontend/user" component={CreateUser} />
         </div>
       </div>
     </BrowserRouter>

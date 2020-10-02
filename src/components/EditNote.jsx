@@ -42,7 +42,7 @@ export default class EditNote extends Component {
       title: this.state.title,
       content: this.state.content,
       date: this.state.date,
-      author: this.state.userSelected,
+      author: this.state.author,
     };
 
     await axios.put(
@@ -74,7 +74,7 @@ export default class EditNote extends Component {
           <div className="form-group">
             <select
               className="form-control"
-              name="userSelected"
+              name="author"
               value={this.state.author}
               onChange={this.handleChange}
             >

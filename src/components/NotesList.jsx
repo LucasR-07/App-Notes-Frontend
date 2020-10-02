@@ -46,7 +46,7 @@ export default class NotesList extends Component {
                   </h5>
                   <Link
                     className="btn btn-danger text-light rounded-pill"
-                    to={"/notes/" + note._id}
+                    to={"/notes-app-frontend/notes/" + note._id}
                   >
                     Edit
                   </Link>

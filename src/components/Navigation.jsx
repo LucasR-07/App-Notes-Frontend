@@ -19,10 +19,10 @@ export default class Navigation extends Component {
             <Link to="/notes-app-frontend">
               <button className="btn btn-outline-danger border-0 rounded-pill text-light navBoton mr-3">Notes</button>
             </Link>
-            <Link to="/create">
+            <Link to="/notes-app-frontend/create">
               <button className="btn btn-outline-danger border-0 rounded-pill text-light navBoton mr-3">Create Note</button>
             </Link>
-            <Link to="/user">
+            <Link to="/notes-app-frontend/user">
               <button className="btn btn-outline-danger border-0 rounded-pill text-light navBoton">Create User</button>
             </Link>
           </Nav>
